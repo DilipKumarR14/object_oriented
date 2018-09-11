@@ -1,0 +1,20 @@
+[
+    {
+        "stockname": "tata",
+        "noofshares": "2",
+        "stocksymbol": "!",
+        "eachshare": "20000"
+    },
+    {
+        "stockname": "reliance",
+        "noofshares": "3",
+        "stocksymbol": "@",
+        "eachshare": "23420"
+    },
+    {
+        "stockname": "birla",
+        "noofshares": "2",
+        "stocksymbol": "#",
+        "eachshare": "65452"
+    }
+]
