@@ -1,20 +1,23 @@
 [
     {
-        "stockname": "tata",
-        "noofshares": "2",
-        "stocksymbol": "!",
-        "eachshare": "20000"
+        "stockname": "jio",
+        "noofshares": 2,
+        "symbol": "!",
+        "price": 10,
+        "eachshare": 20
     },
     {
-        "stockname": "reliance",
-        "noofshares": "3",
-        "stocksymbol": "@",
-        "eachshare": "23420"
+        "name":"dilip",
+        "stockname": "airtel",
+        "noofshares": 3,
+        "symbol": "@",
+        "price": 12,
+        "eachshare": 36
     },
     {
-        "stockname": "birla",
-        "noofshares": "2",
-        "stocksymbol": "#",
-        "eachshare": "65452"
-    }
-]
+        "stockname": "idea",
+        "noofshares": 2,
+        "symbol": "#",
+        "price": 10,
+        "eachshare": 20
+    }]
