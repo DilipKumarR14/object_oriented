@@ -22,8 +22,6 @@ class stocks
         }
     }
     public function result(){
-
         echo "total value : ".$this->total;
-
     }
 }

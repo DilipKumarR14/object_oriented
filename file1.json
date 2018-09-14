@@ -1,14 +1,43 @@
-[
-    {
-        "name": "rice","weight": "12","price": "30"
-    },
-    {
-     "name": "pulses","weight": "15","price": "60"
-    },
-    {
-     "name": "wheat","weight": "10","price": "50" 
-    },
-    {
-        "name": "ragi","weight": "6","price": "12" 
-    }
-]
+{
+    "rice":
+    [
+        {
+            "name":"basmathi",
+            "price":20,
+            "weight":25
+        },
+        {
+            "name":"basmathi1",
+            "price":20,
+            "weight":25
+        }
+    ],
+    "pulse":[
+        {
+            "name":"moong",
+            "price":33,
+            "weight":55
+        },
+        {
+            "name":"moong1",
+            "price":33,
+            "weight":55
+        }
+    ],
+    "wheat":[
+        {
+            "name":"wheat",
+            "price":22,
+            "weight":15
+        },
+        {
+            "name":"wheat1",
+            "price":45,
+            "weight":55
+        }
+    ]
+
+}
+
+
+

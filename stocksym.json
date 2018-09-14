@@ -1,23 +1,20 @@
 [
     {
         "stockname": "jio",
-        "noofshares": 2,
+        "noofshares": 10,
         "symbol": "!",
-        "price": 10,
-        "eachshare": 20
+        "eachshare": 20000
     },
     {
-        "name":"dilip",
         "stockname": "airtel",
-        "noofshares": 3,
+        "noofshares": 10,
         "symbol": "@",
-        "price": 12,
-        "eachshare": 36
+        "eachshare": 36000
     },
     {
         "stockname": "idea",
-        "noofshares": 2,
+        "noofshares": 10,
         "symbol": "#",
-        "price": 10,
-        "eachshare": 20
-    }]
+        "eachshare": 16345
+    }
+]

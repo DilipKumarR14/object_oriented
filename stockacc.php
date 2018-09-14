@@ -6,7 +6,7 @@ class stock
 
     public function stockaccount($file)
     {
-        fopen($file, 'w+');
+        fopen($file, 'a');
     }
     public function valueof($sum)
     {
@@ -79,7 +79,7 @@ class stock
 
                 $json[$i]['balance']=$kbal+$amt*$sh;//balance incr
                 $json[$i]['noofshare']=$total;//shares sold
-                $json[$i]['solddate']=date("Y-M-D h:i:a");
+                $json[$i]['solddate']=$json[$i]['solddate'];
                 $json[$i]['username']=$json[$i]['username'];
                 $json[$i]['stockname']=$json[$i]['stockname'];
                 $json[$i]['symbol']=$json[$i]['symbol'];
@@ -131,20 +131,36 @@ class stock
         echo "\n";
         $file=file_get_contents($str);
         $json=json_decode($file,true);
-        echo "name : ".$json['username'] . "\n";
-        echo "balance : ".$json['balance'] . "\n";
-        echo "stockname : ".$json['stockname']."\n";
-        echo "symbol: ".$json['symbol']."\n";
-        echo "noofshare: ".$json['noofshare']."\n";
-        echo "balance: ".$json['balance']."\n";
-        echo "purchased time : ".$json['purchased']."\n";
-        echo "sold time : ".$json['soldate']."\n";
+        echo "name : ".$json[0]['username'] . "\n";
+        echo "balance : ".$json[0]['balance'] . "\n";
+        echo "stockname : ".$json[0]['stockname']."\n";
+        echo "symbol: ".$json[0]['symbol']."\n";
+        echo "noofshare: ".$json[0]['noofshare']."\n";
+        echo "balance: ".$json[0]['balance']."\n";
+        echo "purchased time : ".$json[0]['purchased']."\n";
+        echo "sold time : ".$json[0]['soldate']."\n";
         echo "\n";
-
     }
+
+    // public function printreport1($str){
+    //     echo "\n";
+    //     $file=file_get_contents($str);
+    //     $json=json_decode($file,true);
+    //     echo "name : ".$str['username'] . "\n";
+    //     echo "balance : ".$str['balance'] . "\n";
+    //     echo "stockname : ".$str['stockname']."\n";
+    //     echo "symbol: ".$str['symbol']."\n";
+    //     echo "noofshare: ".$str['noofshare']."\n";
+    //     echo "balance: ".$str['balance']."\n";
+    //     echo "purchased time : ".$str['purchased']."\n";
+    //     echo "sold time : ".$str['soldate']."\n";
+    //     echo "\n";
+    // }
 
 }
 $s = new stock();
 // $s->buy(1000, '@');
 $s->sell(15400, '@',1);
 $s->printreport('sell.json');
+// $s->printreport1('str.json');
+?>
