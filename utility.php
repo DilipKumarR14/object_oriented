@@ -186,5 +186,37 @@ Please,let us know in case of any clarification Thank you BridgeLabz 01/01/2016"
         }
     }
 
+
+    function Address()
+{
+    $a = new AddressBook();
+    echo "enter 1/create  2/update  3/view  4/delete  5/sort \n";
+    $option = $this->getint();
+    switch ($option) {
+        case 1:
+            $a->create();
+            break;
+
+        case 2:
+            $a->update();
+            break;
+        case 3:
+            $a->view();
+            break;
+        case 4:
+            $a->delete();
+            break;
+        case 5:
+            echo "Sort according to\n";
+            $a->sort();
+
+            break;
+        default:
+            echo "Entered wrong option !\n";
+            Address();
+            break;
+    }
+}
+
     #main ends
 }

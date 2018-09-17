@@ -1,1 +1,12 @@
-[{"username":"dilip","balance":159950,"stockname":"idea","noofshare":11,"symbol":"#","purchased":"2018-Sep-14 04:08:pm","solddate":"2018-Sep-14 03:41:pm","eachshare":10000}]
+[
+    {
+        "username": "dilip",
+        "balance": 159950,
+        "stockname": "idea",
+        "noofshare": 11,
+        "symbol": "#",
+        "purchased": "2018-Sep-14 04:08:pm",
+        "solddate": "2018-Sep-14 03:41:pm",
+        "eachshare": 10000
+    }
+]

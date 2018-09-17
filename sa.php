@@ -146,7 +146,8 @@ class Stock extends Sample
 #main ends
 }
 
-
+$s=new Stock();
+$s->buy(100000,"!");
 
 
 ?>
