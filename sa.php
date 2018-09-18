@@ -1,4 +1,5 @@
 <?php
+include "utility.php";
 abstract class Sample{
     public abstract function valueof($sum);
     public abstract function buy($amount,$symbol);
@@ -29,6 +30,9 @@ class Stock extends Sample
                 $date = date("Y-M-d h:i:a");
                 echo "enter the no of share to buy\n";
                 $share = $ref->getint();
+                $qw=$json[$res]['eachshare']*$share ;
+                if($json[$res]['eachshare']*$share < $amount)
+                {
                 if ($share < $json[$res]['noofshares']) {
                     echo "u can buy\n";
                     $balance = $u1[0]['balance'] - $amount;
@@ -54,6 +58,10 @@ class Stock extends Sample
                 } else {
                     echo "entered more no of share\n";
                 }
+            }
+            else {
+                echo "no ennough balance\n";
+            }
             } else {
                 echo "insuff balance\n";
             }
@@ -147,7 +155,7 @@ class Stock extends Sample
 }
 
 $s=new Stock();
-$s->buy(100000,"!");
+$s->buy(21000,"!");
 
 
 ?>

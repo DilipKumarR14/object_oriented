@@ -1,1 +1,42 @@
-[{"First name":"dilip","Last name":"c","Mobile number":123,"Street number":"ws","Street name":"ws","District name":"de","State name":"rf","Zip code":98},{"First name":"c","Last name":"b","Mobile number":23,"Street number":"aaaaa","Street name":"fdsf","District name":"fsdf","State name":"fds","Zip code":65},{"First name":"m","Last name":"a","Mobile number":321,"Street number":"oko","Street name":"oko","District name":"df","State name":"erte","Zip code":12},{"First name":"upama","Last name":"saha","Mobile number":4321,"Street number":null,"Street name":"plou","District name":"sard","State name":"kol","Zip code":122}]
+[
+    {
+        "First name": "dilip",
+        "Last name": "c",
+        "Mobile number": 123,
+        "Street number": "ws",
+        "Street name": "ws",
+        "District name": "de",
+        "State name": "rf",
+        "Zip code": 98
+    },
+    {
+        "First name": "c",
+        "Last name": "b",
+        "Mobile number": 23,
+        "Street number": "aaaaa",
+        "Street name": "fdsf",
+        "District name": "fsdf",
+        "State name": "fds",
+        "Zip code": 65
+    },
+    {
+        "First name": "m",
+        "Last name": "a",
+        "Mobile number": 321,
+        "Street number": "oko",
+        "Street name": "oko",
+        "District name": "df",
+        "State name": "erte",
+        "Zip code": 12
+    },
+    {
+        "First name": "upama",
+        "Last name": "saha",
+        "Mobile number": 4321,
+        "Street number": null,
+        "Street name": "plou",
+        "District name": "sard",
+        "State name": "kol",
+        "Zip code": 122
+    }
+]

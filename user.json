@@ -1,11 +1,11 @@
 [
     {
         "username": "dilip",
-        "balance": 159970,
+        "balance": 59970,
         "stockname": "jio",
-        "noofshare": 12,
+        "noofshare": 14,
         "symbol": "!",
-        "purchased": "2018-Sep-14 04:10:pm",
+        "purchased": "2018-Sep-18 02:06:pm",
         "solddate": "2018-Sep-14 03:41:pm",
         "eachshare": 10000
     }
