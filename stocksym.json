@@ -1,7 +1,7 @@
 [
     {
         "stockname": "jio",
-        "noofshares": 8,
+        "noofshares": 22,
         "symbol": "!",
         "eachshare": 20000
     },
@@ -13,8 +13,8 @@
     },
     {
         "stockname": "idea",
-        "noofshares": 10,
+        "noofshares": 1007,
         "symbol": "#",
         "eachshare": 16345
     }
-]
+]a
